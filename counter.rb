@@ -7,9 +7,9 @@
 count = 0
 
 loop do
-input = [(print 'Add one? (y/n): '), gets.rstrip][1]
+input = [(print 'Add one? (Y/n): '), gets.rstrip][1]
 
-if input == 'y'
+if input == 'y' || input == ''
     count += 1
 end
 
